@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(-45deg, #f33131, #010a7f, #000000, #6af540);
+    background-size: 500% 500%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    border: solid rgb(238, 255, 0) 1px;
+    box-shadow:1px 10px 20px rgb(1, 21, 122);   
+    border-radius: 20px;
+    padding: 9px;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    text-shadow:10px 5px 20px #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: none;
+}
+li{
+    list-style-type:none;
+    }
+
+.whatsapp{
+    position: absolute;
+    width: 4%;
+    border:5px;
+    float: left;
+    left: 5%;
+}
+.whatsapp :hover{
+    box-shadow: 1px 20px 50px red;
+    border-radius:10px;
+}
+
+.facebook{
+    position: absolute;
+    width: 4%;
+    float: left;
+    left: 25%;
+}
+.facebook :hover{
+    box-shadow: 1px 20px 50px red;
+    border-radius:10px;
+}
+.instagram{
+    position: absolute;
+    width: 4%;
+    float: left;
+    left: 50%;
+}
+.instagram :hover{
+    box-shadow: 1px 20px 50px red;
+    border-radius:10px;
+}
+.snapchat{
+    position: absolute;
+    width: 4%;
+    float:left;
+    left: 80%;
+    
+}
+.snapchat :hover{
+    box-shadow: 1px 20px 50px red;
+    border-radius:10px;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    display: inline;
+    margin-left: 25%;
+    max-width: auto;
+    width: 50%;
+    height: 50%;   
+    border: solid rgb(158, 152, 152) 5px;
+    border-radius: 300px;
+    box-shadow: 1px 20px 50px red;
+}
+summary{
+    color: white;
+    font-size: 30px;
+    text-shadow:  1px 1px 1px rgb(255, 0, 115);
+    
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
